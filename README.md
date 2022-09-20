@@ -46,6 +46,7 @@ RTS 的结果是蓝色线条，对比设备提供的测量结果（绿线），�
 <img width="1795" alt="image_06116335727788269" src="https://user-images.githubusercontent.com/17228538/191203568-b6ad63bf-aa50-431f-874b-0ce7ca40da7b.png">
 其中蓝色线条是 最终的实现。橙色线条是，利用 10^((baseRSSI-currentRSSI)/(10 * 2)) 计算得到的距离曲线用来参考。灰色线条是原始值。
 
+
 放大最后一部分，我认为是一个比较理想的实现。
 
 <img width="772" alt="image_20047064422098015" src="https://user-images.githubusercontent.com/17228538/191203822-91654f15-8476-4e0c-a919-23b9a64b70c9.png">
